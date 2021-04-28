@@ -11,7 +11,7 @@ I manage my doc with maven, but if you don't want to use mavem, you have also np
 
     mvn install
 
-## TIf you want asciidoc into a revealjs presentation, just comment the xml backend and attributes out
+## If you want asciidoc into a revealjs presentation, just comment the xml backend and attributes out
 
      <configuration>
         <backend>pdf</backend>
