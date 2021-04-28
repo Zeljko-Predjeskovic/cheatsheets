@@ -5,6 +5,8 @@ create a src/docs/asciidoc folder where you put your adoc files into it.
 
 I manage my doc with maven, but if you don't want to use mavem, you have also npm.
 
+Note that the asciidoc file will not show the diagrams in github, since the extensions are not enabled.
+
 ## To generate the asciidoc to pdf, just do maven clean and install
 
     mvn clean install
@@ -30,3 +32,4 @@ I manage my doc with maven, but if you don't want to use mavem, you have also np
                         </revealjsdir>
                 </attributes>-->
         </configuration>
+        
