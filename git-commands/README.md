@@ -15,6 +15,7 @@
     git init
 
 ### Added die files
+### Hinweis: Vor dem adden am besten schon eine .gitignore file erstllen damit man auch nichts unnötiges commited
 
     git add .
 
