@@ -35,6 +35,10 @@
 
     git push [remote-name] [branch-name]
 
+### Downloaded Inhalte vom Remote runter. 
+
+    git pull
+
 ### erstellt ein Branch und wechselt zu den.
 
     git checkout -b [branch-name]
