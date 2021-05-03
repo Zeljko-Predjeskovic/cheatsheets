@@ -30,6 +30,14 @@
 ### Zeigt den aktuellen Status des Git repos. immer am Anfang benutzen um zu sehen auf welchen branch man ist.
 
     git status
+    
+### Git remote erstellt eine Verbindung zum Online Repository
+
+    git remote add [remote-name] [url]
+    
+###Listet remotes auf
+
+    git remote -v
 
 ### Sendet den Branch ins remote.
 
