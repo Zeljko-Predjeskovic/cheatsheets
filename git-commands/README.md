@@ -45,7 +45,7 @@
 
 ### Downloaded Inhalte vom Remote runter. 
 
-    git pull
+    git pull [remote or url] [branch-name]
 
 ### erstellt ein Branch und wechselt zu den.
 
