@@ -1,7 +1,7 @@
 # Asciidoc Cheatsheet
 
 This repo has a pom file and an asciidoc cheatsheet. In the maven project copy the pom file,
-*create a src/docs/asciidoc folder* where you put your adoc files into it.
+**create a src/docs/asciidoc folder** where you put your adoc files into it.
 
 I manage my doc with maven, but if you don't want to use mavem, you have also npm.
 
