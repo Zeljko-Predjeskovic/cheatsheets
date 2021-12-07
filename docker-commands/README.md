@@ -8,7 +8,7 @@ to view all the commands:
 
 build an image with a tag:
 
-    $ docker image build -t TAGNAME PATH
+    $ docker build -t TAGNAME PATH
 
 shows all images:
 
