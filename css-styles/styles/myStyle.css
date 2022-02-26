@@ -1,0 +1,199 @@
+
+:root {
+    --black: rgb(20, 20, 20);
+    --dark: rgb(41, 39, 39);
+    --yellow: rgba(230, 199, 26, 0.815);
+    --image: url("https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg");
+}
+
+body{
+    margin: 0;
+}
+
+.font-fam-sans{
+    font-family: sans-serif;
+}
+
+.table{
+ border: 1px;
+ border-style: solid;
+ border-collapse: collapse;
+}
+
+.table th{
+    border: 1px;
+    border-style: solid;
+    background-color: var(--yellow);
+}
+
+.table td{
+    border: 1px;
+    border-style: solid;
+}
+
+.navbar{
+    top:0;
+    position: sticky;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.text-pos-center{
+    text-align: center;
+}
+
+.content-left{
+    justify-content: left;
+}
+
+.content-right{
+    justify-content: right;
+}
+
+.content-center{
+    justify-content: center;
+}
+
+.content-space-between{
+    justify-content: space-between;
+}
+
+.navItem{
+    margin: 10px;
+    padding: 10px;
+}
+
+.main{
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'left center center center center right'
+        'footer footer footer footer footer footer';
+    margin: 0;
+}
+
+.grid-header{
+    grid-area: header;  
+}
+
+.grid-left{
+    grid-area: left;
+}
+
+.grid-center{
+    grid-area: center;
+}
+
+.grid-footer{
+    grid-area: footer;
+}
+
+.grid-right{
+    grid-area: right;
+}
+
+.margin-15{
+    margin: 15px;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.jumbo{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 10%;
+}
+
+.curved-borders{
+    border: solid;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.color-dark{
+    color: var(--dark);
+}
+
+.color-bright{
+    color: white;
+}
+
+.color-yellow{
+    color: var(--yellow);
+}
+
+.b-color-black{
+    background-color: var(--black);
+}
+
+.b-color-dark{
+    background-color: var(--dark);
+}
+
+.b-color-bright{
+    background-color: white;
+}
+
+.b-color-yellow{
+    background-color: var(--yellow);
+}
+
+.b-image{
+    background-image: var(--image);
+}
+
+.b-image-no-repeat{
+    background-repeat: no-repeat;
+}
+
+.p-button{
+    padding: 5px;
+    border: solid;
+    border-radius: 5px;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.p-button:link{
+    text-decoration: none;
+}
+
+.p-button:active{
+    text-decoration: none;
+}
+
+.p-button:visited{
+    text-decoration: none;
+}
+
+.p-button:hover{
+    text-decoration: none;
+}
+
+
