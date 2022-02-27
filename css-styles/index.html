@@ -4,106 +4,48 @@
 <head>
     <title>Zeljko Predjeskovic</title>
     <link rel="stylesheet" href="./styles/myStyle.css">
+    <link rel="stylesheet" href="./styles/codeStyle.css">
+
 </head>
 
 <body class="b-color-dark">
     <nav class="navbar font-fam-sans gap-10 b-color-black color-bright content-left">
         <div class="navItem">
-            <a>Home</a>
-        </div>
-        <div class="navItem">
-            <a>Settings</a>
-        </div>
-        <div class="navItem">
-            <a>References</a>
+            <a class="a-text color-bright"
+                href="https://github.com/Zeljko-Predjeskovic/cheatsheets/tree/main/css-styles">Github</a>
         </div>
     </nav>
 
-    <div class="main color-bright">
-        <div class="grid-header jumbo curved-borders b-image color-bright flex-row content-center"
-            style="--image:url('https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg')">
-            <div>Jumbo</div>
-        </div>
-        <div class="grid-left text-pos-center">
-            <ul>
-                <li>links</li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div class="grid-center text-pos-center flex-column flex-wrap">
-            <div>
-                <ul>
-                    <li>mitte</li>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                </ul>
+    <div class="container color-bright font-fam-sans">
+        <div class="flex-column">
+            <h2>Text Colors</h2>
+            <div class="flex-row code curved-borders">
+                <p class="margin-15 color-bright">Some Text</p>
+                <p class="margin-15 color-dark b-color-bright margin-15">Some Text</p>
+                <p class="margin-15 color-yellow">Some Text</p>
             </div>
-            <table class="table color-bright font-fam-sans">
-                <thead>
-                    <tr>
-                        <th>eins</th>
-                        <th>zwei</th>
-                        <th>drei</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            eins
-                        </td>
-                        <td>
-                            zwei
-                        </td>
-                        <td>
-                            drei
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            eins
-                        </td>
-                        <td>
-                            zwei
-                        </td>
-                        <td>
-                            drei
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            eins
-                        </td>
-                        <td>
-                            zwei
-                        </td>
-                        <td>
-                            drei
-                        </td>
-                    </tr>
-                
-
-                </tbody>
-            </table>
-            <div class="margin-15">
-                <a href="somelinke" class="p-button b-color-yellow color-dark font-fam-sans">Button</a>
-            </div>
+            <pre class="code curved-borders">
+                &ltp  class="color-bright">Some Text&lt/p&gt
+                &ltp class="color-dark b-color-bright margin-15"&gtSome Text&lt/p&gt
+                &ltp class="color-yellow">Some Text&gt&lt/p&gt
+        </pre>
         </div>
-        <div class="grid-right text-pos-center">
-            <ul>
-                <li>rechts</li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
+        <div class="flex-column">
+            <h2>Background</h2>
         </div>
-
-        </div>
-        <div class="grid-footer b-color-bright color-dark text-pos-center font-fam-sans">
-            <div style="margin-top: 600px"></div>
-            <p>copyright - predjeskovic css style</p>
+        <div class="flex-column">
+            <h2>Navbar</h2>
+            <nav class="navbar font-fam-sans gap-10 b-color-black color-bright content-left">
+                <div class="navItem">
+                    <a>NavItem</a>
+                </div>
+                <div class="navItem">
+                    <a>NavItem</a>
+                </div>
+                <div class="navItem">
+                    <a>NavItem</a>
+                </div>
+            </nav>
         </div>
     </div>
 </body>
