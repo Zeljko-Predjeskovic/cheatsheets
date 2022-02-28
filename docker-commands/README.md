@@ -27,7 +27,3 @@ removes one image:
 builds, creates, starts, and attaches to containers for a service:
 
     docker-compose up
-
-### docker service
-
-### docker swarm
