@@ -1,8 +1,9 @@
 :root {
   --black: rgb(20, 20, 20);
-  --dark: rgb(41, 39, 39);
-  --yellow: rgba(230, 199, 26, 0.815);
-  --image: url("https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg");
+  --bright: #ffffffff;
+  --dark: #00203fff;
+  --contrast: #adefd1ff;
+  --image: url("");
 }
 
 body {
@@ -259,11 +260,11 @@ body {
 }
 
 .color-bright {
-  color: white;
+  color: var(--bright);
 }
 
-.color-yellow {
-  color: var(--yellow);
+.color-contrast {
+  color: var(--contrast);
 }
 
 .bg-color-black {
@@ -275,11 +276,11 @@ body {
 }
 
 .bg-color-bright {
-  background-color: white;
+  background-color: var(--bright);
 }
 
-.bg-color-yellow {
-  background-color: var(--yellow);
+.bg-color-contrast {
+  background-color: var(--contrast);
 }
 
 .bg-image {
